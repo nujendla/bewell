@@ -1,0 +1,25 @@
+# Required before production
+
+- [ ] Preview deployment created and URL recorded; production remains unchanged.
+- [ ] Supabase migration applied on the development project; independent users cannot read or mutate each other's rows or photos.
+- [ ] Signup, actual verification email delivery, login, logout, recovery and refresh/returning-user sessions work.
+- [ ] Onboarding refresh preserves draft; saved preferences load after logout/login.
+- [ ] Body scanner consent, Skip Scan, failure Retry and permanent private-photo deletion work.
+- [ ] Razorpay Test Mode plan is monthly INR ₹99; keys and plan belong to the same mode.
+- [ ] Subscription creation and hosted checkout work; opening/dismissing checkout never grants access.
+- [ ] Valid payment signature plus active provider subscription grants Premium; forged signatures/other-user subscriptions fail.
+- [ ] Webhook valid/invalid signatures, retries, duplicate/out-of-order events, failed renewal, halted, expired and cancelled subscriptions behave correctly.
+- [ ] Cycle-end cancellation and returning subscribers tested; expired periods cannot access Premium APIs.
+- [ ] Gemini workout/diet generation works with actual credentials, allergies, equipment and safe skill progressions; bad output/outage preserves the last plan.
+- [ ] Nutrition estimates reviewed against reliable composition data; ingredient and allergen rules reviewed before public release.
+- [ ] Meal photo consent, edits, single saved log and calorie/macronutrient updates work.
+- [ ] Mess portions adjust remaining suggestions gently; no punitive restrictions.
+- [ ] Workouts, warmups, recovery, set/repetition/weight logs, history and progression suggestions work.
+- [ ] Suitable verified tutorial embeds play, with functional external fallbacks.
+- [ ] Task create/edit/delete/completion, daily percentage and privacy-safe achievement export work.
+- [ ] Data survives refresh, sign-out and subsequent sign-in.
+- [ ] Android responsiveness, keyboard navigation, dialog focus management, screen readers and PWA installation reviewed.
+- [ ] Network interruptions, loading/error/empty states and retries reviewed with real services.
+- [ ] Privacy policy, terms, AI-provider retention disclosure and payment cancellation/refund policy reviewed for launch.
+- [ ] Vercel Preview deployment passes all critical journey checks before production promotion.
+- [ ] Separate Live Mode configuration and approved live payment verification completed before claiming real payments work.
